@@ -1,3 +1,4 @@
+import Link from 'next/Link'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Image from 'next/image'
@@ -14,9 +15,12 @@ export default function Home() {
         <h1 className={styles.title}>
           Bem Vindos <a href="#">Página inicial!</a>
         </h1>
+        <Link href="/">
+        <a>Back</a>
+        </Link>
         
         <Image
-          src="/cachorro_caramelo.jpg"
+          src="https://www.hypeness.com.br/1/2019/09/Vira-lata_Caramelo_1.jpg"
           alt="Picture of the author"
           width={500}
           height={500}
