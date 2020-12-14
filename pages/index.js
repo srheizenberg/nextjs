@@ -11,51 +11,52 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Bem Vindos <a href="https://nextjs.org">Página test!</a>
+          Bem Vindos <a href="#">Página inicial!</a>
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
+          comeco do main
           <code className={styles.code}>pages/index.js</code>
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="#" className={styles.card}>
+            <h3>H3</h3>
+            <p>Paragrafo</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          <a href="#" className={styles.card}>
+            <h3>H3</h3>
+            <p>Paragrafo</p>
           </a>
 
           <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="#"
             className={styles.card}
           >
-            <h3>Deploy &rarr;</h3>
+            <h3>H3</h3>
+            <p>Paragrafo</p>
+          </a>
+
+          <a
+            href="#"
+            className={styles.card}
+          >
+            <h3>H3</h3>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+            Implante instantaneamente seu site Next.js em uma URL pública com o Vercel.
             </p>
+            <p>parte final do main</p>
           </a>
         </div>
       </main>
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="#"
           target="_blank"
           rel="noopener noreferrer"
-        >
+        ><p>parte do footer</p>
           Powered by Cleiton{' '}
           <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
         </a>
