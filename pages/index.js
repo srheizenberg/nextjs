@@ -16,7 +16,7 @@ export default function Home() {
         </h1>
         
         <Image
-          src="/https://www.hypeness.com.br/1/2019/09/Vira-lata_Caramelo_1.jpg"
+          src="/cachorro_caramelo.jpg"
           alt="Picture of the author"
           width={500}
           height={500}
