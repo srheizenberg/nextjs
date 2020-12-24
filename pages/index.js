@@ -13,19 +13,12 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Bem Vindos <a href="#">Página inicial!</a>
+          Bem Vindos Página inicial!
         </h1>
         <Link href="/">
         <a>Back</a>
         </Link>
-        
-        <Image
-          src="https://images.unsplash.com/photo-1586890723289-57a0a4092d40?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80"
-          alt="Picture of the author"
-          width={500}
-          height={500}
-          />
-
+               
         <p className={styles.description}>
           comeco do main
           <code className={styles.code}>pages/index.js</code>
